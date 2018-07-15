@@ -13,6 +13,6 @@ int subtract(int a, int b){
 int divide(int a, int b){
 	return a/b;
 }
-int modulus(float a, float b){
+float modulus(int a, int b){
 	return a%b;
 }

@@ -19,7 +19,7 @@ int main(int argc, char* argv[]){
 		printf("The multiplication of argv[1] and argv[2]: %d\n",multiply(argv1, argv2));
 		printf("The division of argv[1] and argv[2]: %d\n",divide(argv1, argv2));
 		printf("The subtractin of argv[1] and argv[2]: %d\n",subtract(argv1, argv2));
-		printf("The modulus of argv[1] and argv[2]: %f\n",modulus(argv1, argv2));
+		printf("The modulus of argv[1] and argv[2]: %lf\n",modulus(argv1, argv2));
 		}
 	}
 	return 0;

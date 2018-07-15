@@ -24,8 +24,8 @@ $(TARGET):$(OBJS)
 	@echo ' '
 
 #add a dependancy
-test: $(TARGET) 
-	./$(TARGET)
+test:$(TARGET)
+	./$(TARGET) 10 3 
 
 clean:
 	rm -f $(TARGET) *.o
